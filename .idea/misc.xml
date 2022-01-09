@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/drawable/border_black.xml" value="0.11770833333333333" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/drawable/round_background.xml" value="0.1" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/drawable/round_white_border.xml" value="0.1" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/activity_main.xml" value="0.215625" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/cast_item.xml" value="0.21927083333333333" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/custom_toolbar.xml" value="0.2" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/fragment_details.xml" value="0.17960602549246812" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/fragment_feedback.xml" value="0.2" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/fragment_help_support.xml" value="0.1" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/fragment_home.xml" value="0.16241610738255033" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/fragment_splash.xml" value="0.10009057971014493" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/fragment_view_all.xml" value="0.264" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/latest_item_layout.xml" value="0.4" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/trending_item_layout.xml" value="0.2" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/upcoming_movie_layout.xml" value="0.10520833333333333" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/layout/view_all_list_item.xml" value="0.37606837606837606" />
+        <entry key="..\:/ParvinderPersonal/MoviesHub/app/src/main/res/menu/menu_item.xml" value="0.21927083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.practice.movieshub.ui.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.practice.movieshub.ui.fragments.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details">
+        <action
+            android:id="@+id/action_detailsFragment_self"
+            app:destination="@id/detailsFragment">
+            <argument
+                android:name="movie_id"
+                app:argType="integer"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.practice.movieshub.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+
+            >
+            <argument
+                android:name="movie_id"
+                app:argType="integer"
+                app:nullable="false" />
+
+        </action>
+        <action
+            android:id="@+id/action_homeFragment_to_viewAllFragment2"
+            app:destination="@id/viewAllFragment2">
+            <argument
+                android:name="type"
+                app:argType="integer"
+                app:nullable="false" />
+            <argument
+                android:name="query"
+                app:argType="string"
+                app:nullable="true" />
+        </action>
+        <action
+            android:id="@+id/action_homeFragment_to_helpSupportFragment"
+            app:destination="@id/helpSupportFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_feedbackFragment"
+            app:destination="@id/feedbackFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/viewAllFragment2"
+        android:name="com.practice.movieshub.ui.fragments.ViewAllFragment"
+        android:label="fragment_view_all"
+        tools:layout="@layout/fragment_view_all">
+        <action
+            android:id="@+id/action_viewAllFragment2_to_detailsFragment2"
+            app:destination="@id/detailsFragment">
+            <argument
+                android:name="movie_id"
+                app:argType="integer"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackFragment"
+        android:name="com.practice.movieshub.ui.fragments.FeedbackFragment"
+        android:label="fragment_feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/helpSupportFragment"
+        android:name="com.practice.movieshub.ui.fragments.HelpSupportFragment"
+        android:label="fragment_help_support"
+        tools:layout="@layout/fragment_help_support" />
+</navigation>
